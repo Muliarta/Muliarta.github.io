@@ -1,0 +1,200 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif, HalveticaNeue;
+  background-color: white;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+.header-index .ta-bg-header {
+  position: relative;
+  height: 700px;
+  background-image: url(../../imgs/1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+
+  /*background: #d93d17; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to left, #d93d17 , #14adc8); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to left, #d93d17 , #14adc8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-color: white;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.ta-header-about {
+  position: relative;
+  height: 800px;
+  background-image: url(../imgs/image1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: white;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.ta-header-berita {
+  position: relative;
+  height: 600px;
+  background-image: url(../imgs/image6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: white;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.header .ta-bg-header {
+  height: 100vh;
+  background: #d93d17; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #d93d17 , #14adc8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #d93d17 , #14adc8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header-index .ta-global-navigation .ta-bg-navigation {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.8);
+}
+.header .ta-global-navigation .ta-bg-navigation {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.header-index .ta-global-navigation .ta-main-navigation {
+  position: absolute;
+  top: 0;
+  //left: 5%;
+  width: 100%;
+  z-index: 100;
+}
+.header .ta-global-navigation .ta-main-navigation {
+  position: absolute;
+  top: 0;
+  //left: 5%;
+  width: 100%;
+  z-index: 100;
+}
+
+.ta-main-navigation nav ul li {
+  list-style: none;
+  display: inline-flex;
+}
+.ta-main-navigation nav ul li a {
+  color: rgba(255,255,255,0.8);
+  margin-left: 20px;
+  line-height: 26px;
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.ta-main-navigation .ta-nav-nav {
+  position: absolute;
+  left: 45%;
+}
+
+.ta-main-navigation .ta-logo-cc {
+  position: absolute;
+  text-indent: 100%;
+  content: '';
+  height: 45px;
+  width: 45px;
+  margin-top: 2px;
+  margin-left: 5%;
+  float: left;
+  background-image: url(../../imgs/cc-logo.svg) ;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 42px 42px;
+  border-radius: 50%;
+  background-position: center;
+  padding: 0.5px;
+}
+
+.header-index .ta-greeting-index {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 30%;
+  background-image: url(../imgs/note.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.header .greeting h1, .header .greeting h2 {
+  text-align: center;
+}
+
+.header .greeting h1 {
+  font-weight: 300;
+  font-size: 3.6em;
+  text-transform: capitalize;
+  color: white;
+}
+
+.header .greeting h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.ta-content {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  /*margin-bottom: 250px;*/
+  /*z-index: 4;*/
+  font-size: 16px;
+  font-family: "Open Sans";
+  background-color: white;
+}
+
+.ta-content-section  h2{
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+.ta-main-content {
+  position: relative;
+  width: 70%;
+}
+.ta-main-content p {
+  text-align: justify;
+  line-height: 2;
+}
+
+.ta-footer {
+  /*position: absolute;*/
+  bottom: 0;
+  /*z-index: -1;*/
+  background-color: black;
+  height: 250px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.ta-footer p {
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+}
