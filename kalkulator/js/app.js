@@ -28,3 +28,11 @@ function checkNum(str) {
 function deleteChar(form) {
 	form.value = form.value.substring(0, form.value.length-1);
 }
+
+function changeSign(form) {
+	if(form.value.substring(0,1) == "-") {
+		form.value = form.value.substring(1, form.value.length);
+	} else {
+		form.value = "-" + form.value;
+	}
+}
