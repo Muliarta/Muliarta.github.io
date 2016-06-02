@@ -1,0 +1,18 @@
+@media screen and (max-width: 360px) {
+    .wrapper {
+        clear: both;
+        width: 360px
+    }
+
+    .panel-body {
+        padding: 15px 0px
+    }
+
+    input[type="button"] {
+        width: 80px
+    }
+
+    input[type="text"] {
+        width: 330px
+    }
+}
