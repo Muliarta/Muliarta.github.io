@@ -45,7 +45,7 @@
 					<div class="groupBtn">
 						<input type="button" value="+/-" class="btn" onclick="changeSign(this.form.display)"></input>
 						<input type="button" value="0" class="btn" onclick="addChar(this.form.display, '0')"></input>
-						<input type="button" value="." class="btn" onclick="deleteChar(this.form.display, '.')"></input>
+						<input type="button" value="." class="btn" onclick="addChar(this.form.display, '.')"></input>
 						<input type="button" value="=" class="btn btn-danger" onclick="if (checkNum(this.form.display.value)) {compute(this.form)}"></input>
 					</div>
 				</form>
